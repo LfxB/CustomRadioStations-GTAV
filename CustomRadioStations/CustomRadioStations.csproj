@@ -57,28 +57,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\..\Documents\Visual Studio 2015\Projects\ScriptHookV.NET Scripts\GTAVHelperFunctions\DecoratorHelper.cs">
-      <Link>DecoratorHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\..\..\..\Documents\Visual Studio 2015\Projects\ScriptHookV.NET Scripts\GTAVHelperFunctions\GTAVFunctions.cs">
-      <Link>GTAVFunctions.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\..\..\..\Documents\Visual Studio 2015\Projects\ScriptHookV.NET Scripts\GTAVHelperFunctions\MathUtil.cs">
-      <Link>MathUtil.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\..\..\..\Documents\Visual Studio 2015\Projects\ScriptHookV.NET Scripts\GTAVHelperFunctions\Scaleform.cs">
-      <Link>Scaleform.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\..\..\..\Documents\Visual Studio 2015\Projects\ScriptHookV.NET Scripts\GTAVHelperFunctions\Settings.cs">
-      <Link>Settings.cs</Link>
-    </Compile>
-    <Compile Include="..\..\..\..\..\..\Documents\Visual Studio 2015\Projects\ScriptHookV.NET Scripts\SelectorWheel\SelectorWheel\SelectorWheel.cs">
-      <Link>SelectorWheel.cs</Link>
-    </Compile>
+    <Compile Include="DecoratorHelper.cs" />
     <Compile Include="Decorators.cs" />
     <Compile Include="GeneralEvents.cs" />
+    <Compile Include="GTAVFunctions.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MainScript.cs" />
+    <Compile Include="MathUtil.cs" />
     <Compile Include="NativeWheelOrganizerScript.cs" />
     <Compile Include="PathHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +71,9 @@
     <Compile Include="RadioStation.cs" />
     <Compile Include="GeneralHelper.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="Scaleform.cs" />
+    <Compile Include="SelectorWheel.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="SoundFile.cs" />
     <Compile Include="StationWheelPair.cs" />
     <Compile Include="Track.cs" />
